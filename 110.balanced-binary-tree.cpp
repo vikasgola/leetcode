@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=110 lang=cpp
- *
- * [110] Balanced Binary Tree
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,5 +25,3 @@ private:
         return 1+max(ldepth, rdepth);
     }
 };
-// @lc code=end
-

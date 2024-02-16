@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=101 lang=cpp
- *
- * [101] Symmetric Tree
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,8 +16,6 @@ public:
         return p->val == q->val && isSameTree(p->left, q->right) && isSameTree(p->right, q->left);
     }
     bool isSymmetric(TreeNode* root) {
-        return isSameTree(root->left, root->right);   
+        return isSameTree(root->left, root->right);
     }
 };
-// @lc code=end
-

@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=219 lang=cpp
- *
- * [219] Contains Duplicate II
- */
-
-// @lc code=start
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -15,7 +8,7 @@ public:
                 return true;
             have[nums[i]] = true;
         }
-        
+
         for(int i=1;i<nums.size()-k;i++){
             have[nums[i-1]] = false;
             if(have.find(nums[i+k]) != have.end() && have[nums[i+k]]) return true;
@@ -24,5 +17,3 @@ public:
         return false;
     }
 };
-// @lc code=end
-

@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=94 lang=cpp
- *
- * [94] Binary Tree Inorder Traversal
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,5 +23,3 @@ public:
         return out;
     }
 };
-// @lc code=end
-

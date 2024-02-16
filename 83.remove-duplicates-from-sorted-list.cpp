@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=83 lang=cpp
- *
- * [83] Remove Duplicates from Sorted List
- */
-
-// @lc code=start
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,5 +27,3 @@ public:
         return backup;
     }
 };
-// @lc code=end
-

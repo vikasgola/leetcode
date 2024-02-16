@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=108 lang=cpp
- *
- * [108] Convert Sorted Array to Binary Search Tree
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,5 +25,3 @@ private:
     }
 
 };
-// @lc code=end
-

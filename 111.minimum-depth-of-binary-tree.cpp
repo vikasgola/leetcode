@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=111 lang=cpp
- *
- * [111] Minimum Depth of Binary Tree
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,5 +19,3 @@ public:
         return 1+min(ml, mr);
     }
 };
-// @lc code=end
-

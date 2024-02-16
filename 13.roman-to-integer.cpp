@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=13 lang=cpp
- *
- * [13] Roman to Integer
- */
-
-// @lc code=start
 class Solution {
 public:
     struct cmpByStringLength {
@@ -26,5 +19,3 @@ public:
         return ans;
     }
 };
-// @lc code=end
-

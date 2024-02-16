@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=100 lang=cpp
- *
- * [100] Same Tree
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,5 +16,3 @@ public:
         return p->val == q->val && isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
 };
-// @lc code=end
-

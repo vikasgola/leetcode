@@ -23,7 +23,7 @@ public:
                         j = j > 0 ? needle_pp[j-1]: 0;
                     }
                     j--;
-                    
+
                 }
             }
         }
